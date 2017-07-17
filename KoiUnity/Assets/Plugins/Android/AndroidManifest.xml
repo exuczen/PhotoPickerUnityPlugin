@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.grepgame.test.koi">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.photo.picker.plugin">
     <uses-sdk android:minSdkVersion="9"/>
 
     <application>
@@ -11,8 +11,11 @@
         </intent-filter>
         <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
     </activity>
-        <activity android:name="com.grepgame.android.plugin.grplugin.KoiGalleryActivity"/>
-        <activity android:name="com.grepgame.android.plugin.grplugin.KoiCameraActivity"/>
+        <activity android:name="com.pictorytale.messenger.android.photo.picker.GalleryActivity"/>
+        <activity android:name="com.pictorytale.messenger.android.photo.picker.CameraActivity"/>
+        <activity android:name="com.pictorytale.messenger.android.photo.picker.CropActivity"/>
     </application>
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
