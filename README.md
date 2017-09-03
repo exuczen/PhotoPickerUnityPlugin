@@ -1,10 +1,6 @@
 # KoiPlugin
 
-An example of how to make Android Plugin for Unity
-
-KoiJava: The actual plugin written in Java
-
-KoiUnity: The sample Unity project which uses the plugin
+https://github.com/datgamedev/KoiPlugin
 
 Link to the Tutorial:
 
